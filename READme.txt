@@ -9,4 +9,4 @@ HOW TO LAUNCH THE PROGRAM :
     
     // 2. Launch the file named "login_page"
 
-    // 3. Enjoy!!.
+    // 3. Enjoy!!..
