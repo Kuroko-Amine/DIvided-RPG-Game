@@ -38,6 +38,8 @@ pip install sqlite3
 pip install bcrypt
 pip install pygame
 pip install Pillow
+python -m pip install pygame pygame-menu
+
 ```
 
 
