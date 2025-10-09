@@ -15,13 +15,13 @@ app.config(bg='#001220')
 
 
 try:
-    app.iconbitmap("image\/logo_task.ico")
+    app.iconbitmap("image//logo_task.ico")
 except Exception as e:
     print("Error:", e)
     
     
 def app_intro():
-    call(["python", "game\/app_intro.py"])
+    call(["python", "game//app_intro.py"])
 
 app_intro()
 
@@ -34,7 +34,7 @@ def set_taskbar_icon(window_handle, icon_path):
 
 window_handle = app.winfo_id()
 
-set_taskbar_icon(window_handle, "image\/logo_task.ico")
+set_taskbar_icon(window_handle, "image//logo_task.ico")
 
 
 font1 = ('Helvitica', 25,'bold')
@@ -69,7 +69,7 @@ def sign_up():
 
 def open_game_file():
     app.withdraw()
-    call(["python", "game\/welc.py"])
+    call(["python", "game//welc.py"])
     app.destroy()
         
 def login_account():
@@ -100,7 +100,7 @@ def login():
     frame2 = customtkinter.CTkFrame(app,bg_color='#001220',fg_color='#001220',width=1000,height=810)
     frame2.place(x=0,y=0)
     
-    image1 = PhotoImage(file = "image\/l.png")
+    image1 = PhotoImage(file = "image//l.png")
     image1_label = Label(frame2,image=image1,bg='#001220')
     image1_label.place(x=4,y=60)
     frame2.image1 = image1
@@ -132,7 +132,7 @@ def show_frame1():
     frame1 = customtkinter.CTkFrame(app, bg_color='#001220', fg_color='#001220', width=1000, height=810)
     frame1.place(x=0, y=0)
 
-    image1 = PhotoImage(file="image\/l.png")
+    image1 = PhotoImage(file="image//l.png")
     image1_label = Label(frame1, image=image1, bg='#001220')
     image1_label.place(x=4, y=60)
     frame1.image1 = image1
@@ -161,7 +161,7 @@ def show_frame1():
 frame1 = customtkinter.CTkFrame(app, bg_color='#001220',fg_color='#001220', width=1000, height=810)
 frame1.place(x=0,y=0)
 
-image1 = PhotoImage(file = "image\/l.png")
+image1 = PhotoImage(file = "image//l.png")
 image1_label = Label(frame1, image = image1, bg='#001220')
 image1_label.place(x=4,y=60)
 

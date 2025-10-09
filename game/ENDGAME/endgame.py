@@ -1,6 +1,7 @@
 import pygame
 import sys
 import os
+import subprocess
 # Initialize pygame
 icon = pygame.image.load('game\ENDGAME\logo.png')
 pygame.display.set_icon(icon)
@@ -379,8 +380,8 @@ def scene2_choix1() :
                     choice = '1'
                 elif option2_rect.collidepoint(mouse_pos):
                     choice = '2'
-                    pygame.quit()
-                    sys.exit()
+                    stop_music()
+                    subprocess.call(["python", "game/outro.py"])    
 
 
 
