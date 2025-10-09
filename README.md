@@ -57,3 +57,9 @@ python login_page.py
 
 Projet réalisé en 1ère année d’ingénierie dans le cadre du module Algorithmique 1.
 Développé par un groupe d’étudiants passionnés de jeux vidéo et d’intelligence artificielle.
+
+### Musiques Utilisé 
+- Dead by Daylight song 
+- 2 naruto OST 
+- last of us part 1 OST 
+- Elden ring final boss ost
