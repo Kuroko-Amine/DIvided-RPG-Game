@@ -1,37 +1,28 @@
-# ⚔️ Divided — RPG Textual Game
+⚔️ Divided — Textual RPG Game
 
-**Divided** est un **jeu RPG textuel interactif** développé comme projet d’Algorithmique 1 en première année d’ingénierie.  
-Le jeu a été entièrement codé en **Python**, en utilisant plusieurs bibliothèques pour offrir une expérience immersive et fluide.
+Divided is an interactive text-based RPG developed as an Algorithmics 1 project in the first year of engineering.
+The game is entirely coded in Python, using several libraries to offer an immersive and smooth experience.
 
----
+🎮 Overview
 
-## 🎮 Présentation
+Divided immerses you in a universe where every choice you make influences the course of the story.
+With a simple yet polished interface thanks to Tkinter, CustomTkinter, and Pygame, the player explores different scenarios, fights enemies, and makes key decisions that determine their fate.
 
-**Divided** vous plonge dans un univers où chaque **choix que vous faites influence le déroulement de l’histoire**.  
-Avec une interface simple mais soignée grâce à **Tkinter**, **CustomTkinter**, et **Pygame**, le joueur explore différents scénarios, affronte des ennemis et prend des décisions clés qui déterminent son destin.
+🧠 Technologies Used
 
----
+🐍 Python
+🖼️ Tkinter / CustomTkinter — Graphical interface
+🎵 Pygame — Sound and animation management
+🗄️ SQLite3 — User accounts database
+🔐 bcrypt — Password security
+🧩 Pillow — Image processing
 
-## 🧠 Technologies utilisées
+🚀 Installation & Launch:
+1️⃣ Prerequisites:
+Make sure you have Python 3.x installed on your machine.
+2️⃣ Install the required libraries
+Open your terminal in the project folder and run the following commands:
 
-- 🐍 **Python**
-- 🖼️ **Tkinter / CustomTkinter** — Interface graphique
-- 🎵 **Pygame** — Gestion du son et des animations
-- 🗄️ **SQLite3** — Base de données des comptes utilisateurs
-- 🔐 **bcrypt** — Sécurisation des mots de passe
-- 🧩 **Pillow** — Gestion des images
-
----
-
-## 🚀 Installation & Lancement
-
-### 1️⃣ Prérequis
-Assurez-vous d’avoir **Python 3.x** installé sur votre machine.
-
-### 2️⃣ Installer les bibliothèques nécessaires  
-Ouvrez votre terminal dans le dossier du projet et exécutez les commandes suivantes :
-
-```bash
 pip install tkinter
 pip install customtkinter
 pip install sqlite3
@@ -40,26 +31,17 @@ pip install pygame
 pip install Pillow
 python -m pip install pygame pygame-menu
 
-```
-
-
-### 3️⃣ Lancer le jeu
-
-Exécutez simplement le fichier suivant :
-```bash
+3️⃣ Launch the game
+Simply run the following file:
 python login_page.py
-```
+4️⃣ Play and enjoy 🎉
+👨‍💻 Development Team
+Project developed in the 1st year of engineering as part of the Algorithmics 1 module.
+Created by a group of students passionate about video games and artificial intelligence.
 
-### 4️⃣ Jouez et profitez 🎉
+🎵 Music Used
 
-
-### 👨‍💻 Équipe de développement
-
-Projet réalisé en 1ère année d’ingénierie dans le cadre du module Algorithmique 1.
-Développé par un groupe d’étudiants passionnés de jeux vidéo et d’intelligence artificielle.
-
-### Musiques Utilisé 
-- Dead by Daylight song 
-- 2 naruto OST 
-- last of us part 1 OST 
-- Elden ring final boss ost
+Dead by Daylight song
+2 Naruto OST
+The Last of Us Part 1 OST
+Elden Ring final boss OST
